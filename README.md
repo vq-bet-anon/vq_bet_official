@@ -59,8 +59,8 @@ Official implementation of VQ-BeT: Behavior Generation with Latent Actions.
 
 ### Step 0: Download dataset and set dataset path / saving path
 
-- Download datasets [here](https://drive.google.com/file/d/1aHb4kV0mpMvuuApBpVGYjAPs6MCNVTNb/view?usp=sharing).
-  - Optionally, use [`gdown`](https://github.com/wkentaro/gdown) to do that: `gdown --fuzzy https://drive.google.com/file/d/1aHb4kV0mpMvuuApBpVGYjAPs6MCNVTNb/view?usp=sharing`.
+- Download datasets [here](https://drive.google.com/file/d/15xvwr6W1tLGXHAf7E_4l-cu5xxkr6fpp/view?usp=sharing).
+  - Optionally, use [`gdown`](https://github.com/wkentaro/gdown) to do that: `gdown --fuzzy https://drive.google.com/file/d/15xvwr6W1tLGXHAf7E_4l-cu5xxkr6fpp/view?usp=sharing`.
 
 - Add path to your dataset directory and save path in `./examples/configs/env_vars/env_vars.yaml`.
   ```bash
@@ -101,8 +101,8 @@ In this repo, we provide pre-processed embedding vectors with `ResNet18` for the
 
 If you want to quickly see the performance of VQ-BeT on goal-cond Kitchen env without training it from scratch, please check the description below.
 
-- Download pretrained Residual VQ, and VQ-BeT [here](https://drive.google.com/file/d/1iGRyxwPHMsSVDFGojTiPteU3NVNNXMfP/view?usp=sharing).
-  - Optionally, use [`gdown`](https://github.com/wkentaro/gdown) to do that: `gdown --fuzzy https://drive.google.com/file/d/1iGRyxwPHMsSVDFGojTiPteU3NVNNXMfP/view?usp=sharing`.
+- Download pretrained Residual VQ, and VQ-BeT [here](https://drive.google.com/file/d/1YyzevYf5Vnmma7Ad_Pwx46JVnyqwOrMT/view?usp=sharing).
+  - Optionally, use [`gdown`](https://github.com/wkentaro/gdown) to do that: `gdown --fuzzy https://drive.google.com/file/d/1YyzevYf5Vnmma7Ad_Pwx46JVnyqwOrMT/view?usp=sharing`.
 
 - Add path to your pre-trained weights in `./examples/configs/train_kitchen_goalcond.yaml` to load them.
 
